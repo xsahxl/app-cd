@@ -5,4 +5,4 @@ async function run(params) {
   console.log(`just a run function: ${JSON.stringify(params)}`);
 }
 
-module.exports.default = run;
+module.exports = run;
